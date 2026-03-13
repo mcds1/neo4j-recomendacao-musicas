@@ -24,18 +24,15 @@ O sistema utiliza os seguintes tipos de nós:
 ## Modelo do Grafo
 
 Modelo do grafo:
+![Modelo do Grafo](grafo.png)
+
+Relacionamentos principais:
+
 ```cypher
 Usuario -[:OUVIU]-> Musica
 Musica -[:PERFORMED_BY]-> Artista
 Musica -[:IN_GENRE]-> Genero
 ```
-![Modelo do Grafo](grafo.png)
-
-Relacionamentos principais:
-
-* `(Usuario)-[:OUVIU]->(Musica)`
-* `(Musica)-[:PERFORMED_BY]->(Artista)`
-* `(Musica)-[:IN_GENRE]->(Genero)`
 
 ## Dataset
 
