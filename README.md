@@ -7,6 +7,11 @@ Banco de dados com mais de **76 mil músicas** utilizado para simular um **siste
 
 Este projeto demonstra como bancos de dados em grafos podem ser utilizados para construir sistemas de recomendação musical. Utilizando o **Neo4j** e a linguagem **Cypher**, o modelo conecta usuários, músicas, artistas e gêneros para permitir análises de comportamento e geração de recomendações.
 
+Dataset utilizado:
+- 76.059 músicas
+- 23 usuários
+- 16 gêneros musicais
+
 ## Modelagem do Grafo
 
 O sistema utiliza os seguintes tipos de nós:
@@ -15,6 +20,10 @@ O sistema utiliza os seguintes tipos de nós:
 * **Musica**
 * **Artista**
 * **Genero**
+
+## Modelo do Grafo
+
+![Modelo do Grafo](imagens/grafo.png)
 
 Relacionamentos principais:
 
