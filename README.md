@@ -24,10 +24,11 @@ O sistema utiliza os seguintes tipos de nós:
 ## Modelo do Grafo
 
 Modelo do grafo:
-
+```cypher
 Usuario -[:OUVIU]-> Musica
 Musica -[:PERFORMED_BY]-> Artista
 Musica -[:IN_GENRE]-> Genero
+```
 ![Modelo do Grafo](grafo.png)
 
 Relacionamentos principais:
