@@ -23,7 +23,7 @@ O sistema utiliza os seguintes tipos de nós:
 
 ## Modelo do Grafo
 
-![Modelo do Grafo](imagens/grafo.png)
+![Modelo do Grafo](grafo.png)
 
 Relacionamentos principais:
 
