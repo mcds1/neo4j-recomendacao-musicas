@@ -62,6 +62,18 @@ ORDER BY Musicas_em_Comum DESC
 * Cypher
 * Modelagem de Grafos
 
+## Modelo do Grafo
+
+![Modelo do Grafo](imagens/grafo_usuario.png)
+
+## Recomendação de Músicas
+
+![Recomendação](imagens/recomendacao.png)
+
+## Usuários com Gostos Similares
+
+![Usuários similares](imagens/usuarios.png)
+
 ## Dificuldades Encontradas
 
 Durante o desenvolvimento foram encontrados alguns desafios:
